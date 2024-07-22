@@ -1,20 +1,21 @@
 import React from 'react';
+import Styles from './searchbar.module.css';
 
 function SearchBar() {
     return (
         <div>
-            <div id="filter-options">
+            <div className={Styles.filterOptions}>
                 <button>Best Match</button>
                 <button>Highest Rated</button>
                 <button>Most Reviewed</button>
             </div>
-            <div id="search-bar">
+            <div className={Styles.searchBar}>
                 <input type="text" placeholder="Search Businesses" />
                 <input type="text" placeholder="Where?" />
             </div>
-            <input type="submit" value="Let's Eat" />
+            <button className={Styles.button}>Let's Eat</button>
         </div>
     );
 }
 
-export default SearchBar;
+export default SearchBar; 

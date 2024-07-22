@@ -1,0 +1,39 @@
+.filterOptions {
+    width: 300px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-bottom: #000 2px solid;
+}
+
+.filterOptions button {
+    font-weight: bold;
+    border: none;
+    background-color: #fdf5e6;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.searchBar input {
+    border-radius: 5px;
+    margin: 0 10px;
+    height: 15px;
+    padding: 5px;
+}
+
+.button {
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: rgb(240, 240, 229);
+}

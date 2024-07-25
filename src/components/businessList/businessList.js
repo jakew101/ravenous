@@ -1,13 +1,12 @@
 import React from 'react';
 import Business from '../business/business';
 import Styles from './businessList.module.css';
-function BusinessList() {
+function BusinessList(props) {
     return (
         <div className={Styles.BusinessList}>
-            <Business />
-            <Business />
-            <Business />
-            <Business />
+            {props.businesses.map((business) => (
+                <Business business={business} />
+            ))}
         </div>
     );
 }

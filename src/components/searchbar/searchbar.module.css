@@ -16,6 +16,11 @@
     cursor: pointer;
 }
 
+.filterOptions button:hover {
+    text-shadow: #000 0 0 10px;
+    color: #fff;
+}
+
 .searchBar input {
     border-radius: 5px;
     margin: 0 10px;

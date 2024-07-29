@@ -7,7 +7,8 @@
     border-bottom: #000 2px solid;
 }
 
-.filterOptions button {
+.filterOptions li {
+    list-style: none;
     font-weight: bold;
     border: none;
     background-color: #fdf5e6;
@@ -16,7 +17,12 @@
     cursor: pointer;
 }
 
-.filterOptions button:hover {
+.filterOptions li:hover {
+    text-shadow: #000 0 0 10px;
+    color: #fff;
+}
+
+.filterOptionsActive {
     text-shadow: #000 0 0 10px;
     color: #fff;
 }
